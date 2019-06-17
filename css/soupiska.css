@@ -1,0 +1,141 @@
+body{
+	background-image: url(../img/backgroundimage.jpg);
+	max-width: 100%;
+	max-height: auto;
+}
+div#obal{
+	width: 960px;
+	text-align: left;
+	margin: auto auto;
+	background-attachment: fixed;
+	background-position: top center;
+}
+header.hlavicka {
+	margin-left: 100px;
+	height: 130px;
+	text-align: left;
+}
+header img{
+	height: 150px;
+	float: left;
+}
+header h1{
+	float: right;
+	color: lightskyblue;
+	margin-right: 100px;
+	margin-top: 40px;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+	background-color: lightskyblue;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-radius: 6px;
+	height: 29px;
+	}
+nav ul{
+	margin: 0;
+	padding: 5px;
+}
+nav li{
+	list-style: none;
+	display: inline;
+	}
+nav li a {
+	text-decoration: none;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav a{
+	color: white;
+}
+nav a:hover{
+	background-color: lightskyblue;
+}
+h3{
+   border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	text-align: center;
+	background-color: lightskyblue;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 25px;	
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+article.clanek{
+	background-color: white;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	border-right:  3px solid lightskyblue;
+	text-align: center;
+}
+header img.obrazek{
+	border: 3px solid lightskyblue;
+	height: 580px;
+	width: 814px;	
+	margin-bottom: 20px;
+}
+h4{
+	padding-left: 50px;
+	padding-top: 0px;
+	color: #040179;
+	padding-bottom: 0;
+}
+footer#konec{
+   background-color: lightskyblue;
+	margin-left: 70px;
+	margin-bottom: 10px;
+	margin-right: 70px;
+	padding: auto auto;
+	padding-top: 5px;
+	border-radius: 6px;
+	height: 29px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	clear:both;
+}
+table {
+   background-color: White; 
+  border: 3px solid lightskyblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  width: 350px; 
+  margin: auto auto;
+  margin-bottom: 10px;
+ }
+.hraci {
+  background-color: lightskyblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;  
+}
+td.profil{
+	background-color: gold;
+}
+td.profil2{
+	background-color: silver;
+}
+td.brankar{
+	background-color: grey;
+}
+td.kridla{
+	background-color: yellowgreen;
+}
+td.obrana{
+	background-color: orange;
+}
+td.kapitan{
+	background-color: red;
+}

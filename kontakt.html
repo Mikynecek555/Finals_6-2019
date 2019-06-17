@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/kontakt.css">
+  <link rel="icon" href="img/download.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <title>S.K. P.E.M.A. OPAVA</title>
+</head>
+
+<body>
+  <div id="obal">
+    <header class="hlavicka">
+      <a href="index.html" title="Aktuality"><img src="img/clubovelogo.png" alt="S.K. P.E.M.A. OPAVA"
+          title="logo" /></a>
+      <a href="index.html" title="Aktuality">
+        <h1>S.K. P.E.M.A. OPAVA</h1>
+      </a>
+    </header>
+    <nav>
+      <ul id="menu">
+        <li><a style="text-decoration:none" href="index.html" title="aktuality">
+            Aktuality</a></li>
+        <li><a style="text-decoration:none" href="soupiska.html" title="Soupiska">
+            Soupiska</a></li>
+        <li><a style="text-decoration:none" href="zapasy.html" title="Rozpis zápasů">
+            Rozpis zápasů</a></li>
+        <li><a style="text-decoration:none" href="fotogalerie.html" title="Fotogalerie">
+            Fotogalerie</a></li>
+        <li><a style="text-decoration:none" href="kontakt.html" title="Dotazník">
+            Dotazník</a></li>
+      </ul>
+    </nav>
+    <section>
+
+      <article id="tabulka">
+        <h3>Dotazník pro diváky</h3>
+        <form action="" method="POST" class="form-horizontal" role="form">
+          <div class="form-group">
+          </div>
+          <div class="form-group">
+            <label for="jmeno" class="col-sm-2">Jméno</label>
+            <div class="col-sm-5">
+              <input type="text" name="jmeno" id="jmeno" class="form-control" required="required"
+                placeholder="Zadej křestní jméno" title="Jméno musí začínat velkým písmenem">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="prijmeni" class="col-sm-2">Příjmení</label>
+            <div class="col-sm-4">
+              <input type="text" name="prijmeni" id="prijmeni" class="form-control" required="required"
+                placeholder="Zadej příjmení" maxlength="20">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2">Pohlaví</label>
+            <div class="col-sm-8">
+              <div class="radio">
+                <label for="muz">
+                  <input type="radio" name="pohlavi" id="muz" value="muž" checked="checked">
+                  Muž
+                </label>
+              </div>
+              <div class="radio">
+                <label for="zena">
+                  <input type="radio" name="pohlavi" id="zena" value="žena">
+                  Žena
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="obor" class="col-sm-4">Herní pozice</label>
+            <div class="col-sm-4">
+              <select name="obor" id="obor" class="form-control">
+                <option value="IT">Brankář</option>
+                <option value="SV" selected>Obrana</option>
+                <option value="UM">Útok</option>
+              </select>
+            </div>
+          </div>
+          <!-- Poznámka -->
+          <div class="form-group">
+            <label for="poznamka" class="col-sm-8">Poznámka pro hráče</label>
+            <div class="col-sm-8">
+              <textarea name="poznamka" id="poznamka" class="form-control" rows="5"></textarea>
+            </div>
+          </div>
+          <!-- Odeslat -->
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <button type="submit" class="btn btn-primary">Odeslat</button>
+            </div>
+          </div>
+        </form>
+
+      </article>
+
+    </section>
+    <footer id=konec>
+      &copy; Martin Mikeš 2019
+    </footer>
+  </div>
+</body>
+
+</html>

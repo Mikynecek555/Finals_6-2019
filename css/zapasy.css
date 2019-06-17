@@ -1,0 +1,134 @@
+body{
+	background-image: url(../img/backgroundimage.jpg);
+	max-width: 100%;
+	max-height: auto;
+}
+a{
+  text-decoration: none;
+}
+div#obal{
+	width: 960px;
+	text-align: left;
+	margin: auto auto;
+	background-attachment: fixed;
+	background-position: top center;
+}
+header.hlavicka {
+	margin-left: 100px;
+	height: 130px;
+	text-align: left;
+}
+header img{
+	height: 150px;
+	float: left;
+}
+header h1{
+	float: right;
+	color: lightskyblue;
+	margin-right: 100px;
+	margin-top: 40px;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+	background-color: lightskyblue;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-radius: 6px;
+	height: 29px;
+	}
+nav ul{
+	margin: 0;
+	padding: 5px;
+}
+nav li{
+	list-style: none;
+	display: inline;
+	}
+nav li a {
+	text-decoration: none;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav a{
+	color: white;
+}
+nav a:hover{
+	background-color: lightskyblue;
+}
+table {
+  background-color: White; 
+  border: 5px solid lightskyblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-left: 100px;
+  
+ }
+ td{
+   width: 150px;
+	height: 20px;
+}
+article#tabulka{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: White;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 2px solid lightskyblue;
+  border-right: 2px solid lightskyblue;
+}
+td.modra{
+   background-color: lightskyblue;
+	color:white;
+}
+td.vyhra{
+	color:Green;
+}
+td.prohra{
+	color:Maroon;
+}
+td.remiza{
+	color:blue;
+}
+tr.radek{
+   background-color: #DCDCDC;
+}
+h3{
+	text-align: center;
+	background-color: lightskyblue;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 25px;	
+	font-family: Arial, Helvetica, sans-serif;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: white;
+}
+footer#konec{
+   background-color: lightskyblue;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	height: 29px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	clear:both;
+	padding: auto auto;
+}
+a{
+	color: lightskyblue;
+}
